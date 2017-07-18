@@ -1,3 +1,3 @@
 This part of codility only has a single problem.
 
-Trying a readme just to fix the looks.
+This readme is here just to fix the looks.
