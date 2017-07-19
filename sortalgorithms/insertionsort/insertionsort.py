@@ -11,6 +11,7 @@ def sortiranje(lista):
 				j = j-1
 			lista[j] = tmp
 
+
 afile = open("zasort.txt")
 data = afile.readlines()
 
