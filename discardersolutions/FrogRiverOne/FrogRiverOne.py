@@ -4,16 +4,12 @@
 
 def solution(X, A):
     B = [False] * X
-    duz = len(A) + 1
+    duz = len(A)
     chk = -1
-    count = X
     for i in range(0, duz):
-        if count > 0:
-            if not B[A[i] - 1]:
-                B[A[i] - 1] = True
-                count -= 1
-        else:
-            chk = i - 1
+        B[A[i] - 1] = True
+        if all(B):
+            chk = i
             break
     return chk
 
