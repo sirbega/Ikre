@@ -4,7 +4,7 @@
 
 def solution(A, B):
     chk = True
-    matrix = [[-1 for x in range(B + 5)] for y in range(A + 5)]
+    matrix = [[-1 for x in range(B + 4)] for y in range(A + 4)]
     matrix[2][2] = 0
     i = 0
     while chk:
@@ -45,4 +45,4 @@ def solution(A, B):
             return i
 
 
-print(solution(99, 99))
+print(solution(18, 6))
